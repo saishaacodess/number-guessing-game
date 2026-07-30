@@ -89,7 +89,7 @@ HTML = """
 @app.route("/", methods=["GET", "POST"])
 def game():
     if "number" not in session:
-        session["number"] = random.randint(1, 10)
+        session["number"] = random.randint(1, 100)
         session["attempts"] = 0
 
     message = "Make your first guess!"
