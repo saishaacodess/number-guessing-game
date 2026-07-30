@@ -56,6 +56,15 @@ HTML = """
         font-weight: bold;
         font-size: 24px;
     }
+    .creator {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    color: pink;
+    font-size: 18px;
+    margin: 0;
+}
+
 </style>
 </head>
 <body>
@@ -72,6 +81,7 @@ HTML = """
 
     <br>
     <a href="/restart">Play again</a>
+    <p class="creator">Created by Saishaaa.</p>
 </body>
 </html>
 """
