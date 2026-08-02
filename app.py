@@ -18,7 +18,7 @@ HTML = """
     body {
         background-color: black;
         color: white;
-        font-family: Arial, sans-serif;
+        font-family: Chaucer, sans-serif;
         text-align: center;
         padding-top: 80px;
         font-size: 26px;
